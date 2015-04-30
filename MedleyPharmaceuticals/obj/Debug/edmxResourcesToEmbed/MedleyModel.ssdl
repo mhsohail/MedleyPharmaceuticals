@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MedleyModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MedleyModelStoreContainer">
+    <EntitySet Name="ReceivedGoods" EntityType="MedleyModel.Store.ReceivedGoods" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Stocks" EntityType="MedleyModel.Store.Stocks" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="StockReceivedGood" Association="MedleyModel.Store.StockReceivedGood">
+      <End Role="Stock" EntitySet="Stocks" />
+      <End Role="ReceivedGood" EntitySet="ReceivedGoods" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ReceivedGoods">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReceivingDate" Type="datetime" Nullable="false" />
+    <Property Name="GRNNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MaterialName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BatchNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MfgDate" Type="datetime" Nullable="false" />
+    <Property Name="ExpDate" Type="datetime" Nullable="false" />
+    <Property Name="QuantityReceived" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="NoOfCartons" Type="int" Nullable="false" />
+    <Property Name="Supplier" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ReferenceNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DeliveredToStore" Type="bit" Nullable="false" />
+    <Property Name="StockId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stocks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NoOfCartons" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="StockReceivedGood">
+    <End Role="Stock" Type="MedleyModel.Store.Stocks" Multiplicity="1" />
+    <End Role="ReceivedGood" Type="MedleyModel.Store.ReceivedGoods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stock">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ReceivedGood">
+        <PropertyRef Name="StockId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

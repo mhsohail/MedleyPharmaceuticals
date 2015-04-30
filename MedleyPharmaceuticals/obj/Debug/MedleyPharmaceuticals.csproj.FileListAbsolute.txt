@@ -1,0 +1,17 @@
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\MedleyPharmaceuticals.exe.config
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\MedleyPharmaceuticals.exe
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\MedleyPharmaceuticals.pdb
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.dll
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.xml
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.exe
+c:\users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.pdb
+c:\Users\pc\Documents\Visual Studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.csprojResolveAssemblyReference.cache
+c:\Users\pc\Documents\Visual Studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.ReceptionWindow.resources
+c:\Users\pc\Documents\Visual Studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.HomeWindow.resources
+C:\Users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreWindow.resources
+C:\Users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreItemsCount.resources
+C:\Users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.TestWindow.resources

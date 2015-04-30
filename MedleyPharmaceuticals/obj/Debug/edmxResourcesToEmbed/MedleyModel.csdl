@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MedleyModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MedleyModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ReceivedGoods" EntityType="MedleyModel.ReceivedGood" />
+    <EntitySet Name="Stocks" EntityType="MedleyModel.Stock" />
+    <AssociationSet Name="StockReceivedGood" Association="MedleyModel.StockReceivedGood">
+      <End Role="Stock" EntitySet="Stocks" />
+      <End Role="ReceivedGood" EntitySet="ReceivedGoods" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ReceivedGood">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReceivingDate" Type="DateTime" Nullable="false" />
+    <Property Name="GRNNo" Type="String" Nullable="false" />
+    <Property Name="MaterialName" Type="String" Nullable="false" />
+    <Property Name="BatchNo" Type="String" Nullable="false" />
+    <Property Name="MfgDate" Type="DateTime" Nullable="false" />
+    <Property Name="ExpDate" Type="DateTime" Nullable="false" />
+    <Property Name="QuantityReceived" Type="String" Nullable="false" />
+    <Property Name="NoOfCartons" Type="Int32" Nullable="false" />
+    <Property Name="Supplier" Type="String" Nullable="false" />
+    <Property Name="ReferenceNo" Type="String" Nullable="false" />
+    <Property Name="DeliveredToStore" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Stock" Relationship="MedleyModel.StockReceivedGood" FromRole="ReceivedGood" ToRole="Stock" />
+    <Property Name="StockId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stock">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NoOfCartons" Type="String" Nullable="false" />
+    <NavigationProperty Name="ReceivedGoods" Relationship="MedleyModel.StockReceivedGood" FromRole="Stock" ToRole="ReceivedGood" />
+  </EntityType>
+  <Association Name="StockReceivedGood">
+    <End Type="MedleyModel.Stock" Role="Stock" Multiplicity="1" />
+    <End Type="MedleyModel.ReceivedGood" Role="ReceivedGood" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stock">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ReceivedGood">
+        <PropertyRef Name="StockId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MedleyModelStoreContainer" CdmEntityContainer="MedleyModelContainer">
+    <EntitySetMapping Name="ReceivedGoods">
+      <EntityTypeMapping TypeName="IsTypeOf(MedleyModel.ReceivedGood)">
+        <MappingFragment StoreEntitySet="ReceivedGoods">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ReceivingDate" ColumnName="ReceivingDate" />
+          <ScalarProperty Name="GRNNo" ColumnName="GRNNo" />
+          <ScalarProperty Name="MaterialName" ColumnName="MaterialName" />
+          <ScalarProperty Name="BatchNo" ColumnName="BatchNo" />
+          <ScalarProperty Name="MfgDate" ColumnName="MfgDate" />
+          <ScalarProperty Name="ExpDate" ColumnName="ExpDate" />
+          <ScalarProperty Name="QuantityReceived" ColumnName="QuantityReceived" />
+          <ScalarProperty Name="NoOfCartons" ColumnName="NoOfCartons" />
+          <ScalarProperty Name="Supplier" ColumnName="Supplier" />
+          <ScalarProperty Name="ReferenceNo" ColumnName="ReferenceNo" />
+          <ScalarProperty Name="DeliveredToStore" ColumnName="DeliveredToStore" />
+          <ScalarProperty Name="StockId" ColumnName="StockId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stocks">
+      <EntityTypeMapping TypeName="IsTypeOf(MedleyModel.Stock)">
+        <MappingFragment StoreEntitySet="Stocks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NoOfCartons" ColumnName="NoOfCartons" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
