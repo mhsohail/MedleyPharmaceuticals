@@ -20,6 +20,5 @@ namespace MedleyPharmaceuticals
         {
             return _bindingList ?? (_bindingList = this.ToBindingList());
         }
-
     }
 }

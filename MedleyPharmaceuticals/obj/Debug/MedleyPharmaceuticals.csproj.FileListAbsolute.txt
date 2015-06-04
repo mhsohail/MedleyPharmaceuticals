@@ -15,3 +15,10 @@ c:\Users\pc\Documents\Visual Studio 2013\Projects\MedleyPharmaceuticals\MedleyPh
 C:\Users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreWindow.resources
 C:\Users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreItemsCount.resources
 C:\Users\pc\documents\visual studio 2013\Projects\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.TestWindow.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.HomeWindow.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.ReceptionWindow.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Properties.Resources.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreItemsCount.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreWindow.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.TestWindow.resources
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.csproj.GenerateResource.Cache

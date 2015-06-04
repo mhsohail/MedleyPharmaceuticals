@@ -752,7 +752,7 @@
             // 
             // cmpReceivedGoodBindingSource
             // 
-            this.cmpReceivedGoodBindingSource.DataSource = typeof(MedleyPharmaceuticals.ReceivedGood);
+            this.cmpReceivedGoodBindingSource.DataSource = typeof(MedleyPharmaceuticals.RawMaterial);
             // 
             // ReceptionWindow
             // 
