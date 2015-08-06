@@ -28,7 +28,7 @@ namespace MedleyPharmaceuticals
             //new MedleyDBInitializer().Truncate();
             //if (MedleyDB.ReceivedGoods.ToList().Count == 0)
             {
-                new MedleyDBInitializer().Initialize();
+                //new MedleyDBInitializer().Initialize();
             }
             
             // Load is an extension method on IQueryable,  
@@ -37,13 +37,13 @@ namespace MedleyPharmaceuticals
             // similar to ToList but without creating a list. 
             // When used with Linq to Entities this method  
             // creates entity objects and adds them to the context. 
-            if (MedleyDB.ReceivedGoods.ToList().Count > 0)
+            //if (MedleyDB.RawProduct.ToList().Count > 0)
             {
-                MedleyDB.ReceivedGoods.Load();
+                //MedleyDB.ReceivedGoods.Load();
                 // After the data is loaded call the DbSet<T>.Local property  
                 // to use the DbSet<T> as a binding source. 
                 //this.cmpReceivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList().Skip((page - 1) * perPage).Take(perPage);
-                this.cmpReceivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList();
+                //this.cmpReceivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList();
             }
             
         }
@@ -117,7 +117,7 @@ namespace MedleyPharmaceuticals
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (page < (Math.Ceiling(MedleyDB.ReceivedGoods.Local.Count / (Double)perPage)))
+            //if (page < (Math.Ceiling(MedleyDB.ReceivedGoods.Local.Count / (Double)perPage)))
             {
                 page += 1;
             }

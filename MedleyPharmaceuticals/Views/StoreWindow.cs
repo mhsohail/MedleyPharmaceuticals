@@ -39,7 +39,7 @@ namespace MedleyPharmaceuticals.Views
             // similar to ToList but without creating a list. 
             // When used with Linq to Entities this method  
             // creates entity objects and adds them to the context. 
-            MedleyDB.ReceivedGoods.Load();
+            //MedleyDB.ReceivedGoods.Load();
             
             // Bind the categoryBindingSource.DataSource to  
             // all the Unchanged, Modified and Added Category objects that  
@@ -48,7 +48,8 @@ namespace MedleyPharmaceuticals.Views
             // ObservableCollection<TEntity> returned by 
             // the DbSet.Local property to get the BindingList<T> 
             // in order to facilitate two-way binding in WinForms. 
-            this.receivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList();
+            
+            //this.receivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList();
             
         }
         
@@ -81,14 +82,14 @@ namespace MedleyPharmaceuticals.Views
 
         private void btnDeliveredProducts_Click(object sender, EventArgs e)
         {
-            MedleyDB.ReceivedGoods.Load();
-            this.receivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList().Where(d => d.DeliveredToStore.Equals(true));
+            //MedleyDB.ReceivedGoods.Load();
+            //this.receivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList().Where(d => d.DeliveredToStore.Equals(true));
         }
 
         private void btnNondeliveredProducts_Click(object sender, EventArgs e)
         {
-            MedleyDB.ReceivedGoods.Load();
-            this.receivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList().Where(d => d.DeliveredToStore.Equals(false));
+            //MedleyDB.ReceivedGoods.Load();
+            //this.receivedGoodBindingSource.DataSource = MedleyDB.ReceivedGoods.Local.ToBindingList().Where(d => d.DeliveredToStore.Equals(false));
         }
     }
 }

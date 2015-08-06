@@ -15,12 +15,12 @@ namespace MedleyPharmaceuticals
     {
         public Stock()
         {
-            this.ReceivedGoods = new ObservableListSource<ReceivedGood>();
+            //this.ReceivedGoods = new ObservableListSource<ReceivedGood>();
         }
-    
+        
         public int Id { get; set; }
         public string NoOfCartons { get; set; }
-    
-        public virtual ObservableListSource<ReceivedGood> ReceivedGoods { get; set; }
+        
+        //public virtual ObservableListSource<ReceivedGood> ReceivedGoods { get; set; }
     }
 }

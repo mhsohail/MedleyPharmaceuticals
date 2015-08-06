@@ -22,3 +22,15 @@ C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Deb
 C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.StoreWindow.resources
 C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.Views.TestWindow.resources
 C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\MedleyPharmaceuticals.exe.config
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\MedleyPharmaceuticals.exe
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\MedleyPharmaceuticals.pdb
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.dll
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.xml
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.exe
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.pdb
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\Medley.Core.dll
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\bin\Debug\Medley.Core.pdb
+C:\Users\pc\Documents\GitHub\MedleyPharmaceuticals\MedleyPharmaceuticals\obj\Debug\MedleyPharmaceuticals.csprojResolveAssemblyReference.cache

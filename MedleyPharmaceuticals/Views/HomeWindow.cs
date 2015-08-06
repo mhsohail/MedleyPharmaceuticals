@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MedleyPharmaceuticals
+namespace Medley.UI.Views
 {
     public partial class HomeWindow : Form
     {

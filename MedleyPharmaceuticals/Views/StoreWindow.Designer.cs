@@ -323,7 +323,7 @@
             // 
             // receivedGoodBindingSource
             // 
-            this.receivedGoodBindingSource.DataSource = typeof(MedleyPharmaceuticals.ReceivedGood);
+            this.receivedGoodBindingSource.DataSource = typeof(Medley.Core.Models.RawProduct);
             // 
             // StoreWindow
             // 

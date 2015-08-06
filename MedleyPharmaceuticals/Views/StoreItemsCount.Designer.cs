@@ -118,7 +118,7 @@
             // 
             // receivedGoodBindingSource
             // 
-            this.receivedGoodBindingSource.DataSource = typeof(MedleyPharmaceuticals.ReceivedGood);
+            //this.receivedGoodBindingSource.DataSource = typeof(MedleyPharmaceuticals.ReceivedGood);
             // 
             // colTotalNumberOfCartons
             // 
