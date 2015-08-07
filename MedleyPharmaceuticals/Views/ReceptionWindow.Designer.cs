@@ -1,4 +1,4 @@
-﻿namespace MedleyPharmaceuticals
+﻿namespace Medley.UI.Views
 {
     partial class ReceptionWindow
     {
