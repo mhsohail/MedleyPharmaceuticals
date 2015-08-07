@@ -1,4 +1,4 @@
-﻿namespace Medley.Core.Views
+﻿namespace Medley.UI.Views
 {
     partial class ReceptionWindow
     {

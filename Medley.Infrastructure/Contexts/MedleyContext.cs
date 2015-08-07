@@ -1,4 +1,4 @@
-﻿using Medley.Core.Models;
+﻿using Medley.UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

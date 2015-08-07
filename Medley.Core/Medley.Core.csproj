@@ -7,7 +7,7 @@
     <ProjectGuid>{A7A35D27-F1C0-454B-A29A-0607593C332B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Medley.Core</RootNamespace>
+    <RootNamespace>Medley.UI</RootNamespace>
     <AssemblyName>Medley.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

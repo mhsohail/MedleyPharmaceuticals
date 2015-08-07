@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Medley.Core.Models
+namespace Medley.UI.Models
 {
     public class RawProduct
     {

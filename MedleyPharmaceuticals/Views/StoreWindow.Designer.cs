@@ -1,4 +1,4 @@
-﻿namespace Medley.Core.Views
+﻿namespace Medley.UI.Views
 {
     partial class StoreWindow
     {
@@ -323,7 +323,7 @@
             // 
             // receivedGoodBindingSource
             // 
-            this.receivedGoodBindingSource.DataSource = typeof(Medley.Core.Models.RawProduct);
+            this.receivedGoodBindingSource.DataSource = typeof(Medley.UI.Models.RawProduct);
             // 
             // StoreWindow
             // 

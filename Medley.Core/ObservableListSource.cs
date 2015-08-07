@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
-namespace Medley.Core
+namespace Medley.UI
 {
     public class ObservableListSource<T> : ObservableCollection<T>, IListSource where T : class
     {

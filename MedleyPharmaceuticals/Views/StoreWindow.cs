@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.Entity;
 using Medley.DAL.Contexts;
 
-namespace Medley.Core.Views
+namespace Medley.UI.Views
 {
     public partial class StoreWindow : Form
     {
