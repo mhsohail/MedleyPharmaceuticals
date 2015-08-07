@@ -30,7 +30,6 @@
         {
             this.btnReception = new System.Windows.Forms.Button();
             this.btnStore = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReception
@@ -55,21 +54,11 @@
             this.btnStore.UseVisualStyleBackColor = true;
             this.btnStore.Click += new System.EventHandler(this.btnStore_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(449, 139);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // HomeWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 322);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnStore);
             this.Controls.Add(this.btnReception);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -85,6 +74,5 @@
 
         private System.Windows.Forms.Button btnReception;
         private System.Windows.Forms.Button btnStore;
-        private System.Windows.Forms.Button button1;
     }
 }
