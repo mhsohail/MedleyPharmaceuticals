@@ -1,4 +1,4 @@
-﻿namespace MedleyPharmaceuticals
+﻿namespace Medley.Core.Views
 {
     partial class HomeWindow
     {

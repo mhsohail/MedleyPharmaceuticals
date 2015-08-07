@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
-namespace MedleyPharmaceuticals
+namespace Medley.Core
 {
-    class ObservableListSource<T> : ObservableCollection<T>, IListSource where T : class
+    public class ObservableListSource<T> : ObservableCollection<T>, IListSource where T : class
     {
         private IBindingList _bindingList;
 

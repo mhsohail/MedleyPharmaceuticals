@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medley.UI", "MedleyPharmace
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medley.Core", "Medley.Core\Medley.Core.csproj", "{A7A35D27-F1C0-454B-A29A-0607593C332B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medley.DAL", "Medley.Infrastructure\Medley.DAL.csproj", "{D8B38EBE-9E16-43E3-9C1E-877CC649FE28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A7A35D27-F1C0-454B-A29A-0607593C332B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A35D27-F1C0-454B-A29A-0607593C332B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A35D27-F1C0-454B-A29A-0607593C332B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B38EBE-9E16-43E3-9C1E-877CC649FE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B38EBE-9E16-43E3-9C1E-877CC649FE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B38EBE-9E16-43E3-9C1E-877CC649FE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B38EBE-9E16-43E3-9C1E-877CC649FE28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,6 @@
 
 namespace MedleyPharmaceuticals
 {
-    using MedleyPharmaceuticals.Model;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
@@ -25,8 +24,8 @@ namespace MedleyPharmaceuticals
         {
             throw new UnintentionalCodeFirstException();
         }
-        
-        //public virtual DbSet<RawMaterial> ReceivedGoods { get; set; }
+    
+        public virtual DbSet<ReceivedGood> ReceivedGoods { get; set; }
         public virtual DbSet<Stock> Stocks { get; set; }
     }
 }

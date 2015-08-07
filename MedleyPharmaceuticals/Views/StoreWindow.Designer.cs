@@ -1,4 +1,4 @@
-﻿namespace MedleyPharmaceuticals.Views
+﻿namespace Medley.Core.Views
 {
     partial class StoreWindow
     {

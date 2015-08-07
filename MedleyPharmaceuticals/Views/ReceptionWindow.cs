@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Entity;
+using Medley.DAL.Contexts;
 
-namespace MedleyPharmaceuticals
+namespace Medley.Core.Views
 {
     public partial class ReceptionWindow : Form
     {
         
-        MedleyModelContainer MedleyDB = new MedleyModelContainer();
+        MedleyContext MedleyDB = new MedleyContext();
         int page = 1;
         int perPage = 10;
 
