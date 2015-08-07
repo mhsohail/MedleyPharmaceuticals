@@ -1,4 +1,4 @@
-﻿namespace MedleyPharmaceuticals
+﻿namespace Medley.UI.Views
 {
     partial class HomeWindow
     {
@@ -30,13 +30,15 @@
         {
             this.btnReception = new System.Windows.Forms.Button();
             this.btnStore = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReception
             // 
-            this.btnReception.Location = new System.Drawing.Point(108, 110);
+            this.btnReception.Location = new System.Drawing.Point(144, 135);
+            this.btnReception.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReception.Name = "btnReception";
-            this.btnReception.Size = new System.Drawing.Size(75, 23);
+            this.btnReception.Size = new System.Drawing.Size(100, 28);
             this.btnReception.TabIndex = 0;
             this.btnReception.Text = "Reception";
             this.btnReception.UseVisualStyleBackColor = true;
@@ -44,21 +46,33 @@
             // 
             // btnStore
             // 
-            this.btnStore.Location = new System.Drawing.Point(189, 110);
+            this.btnStore.Location = new System.Drawing.Point(252, 135);
+            this.btnStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStore.Name = "btnStore";
-            this.btnStore.Size = new System.Drawing.Size(75, 23);
+            this.btnStore.Size = new System.Drawing.Size(100, 28);
             this.btnStore.TabIndex = 1;
             this.btnStore.Text = "Stroe";
             this.btnStore.UseVisualStyleBackColor = true;
             this.btnStore.Click += new System.EventHandler(this.btnStore_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(449, 139);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // HomeWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 262);
+            this.ClientSize = new System.Drawing.Size(548, 322);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnStore);
             this.Controls.Add(this.btnReception);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeWindows";
@@ -71,5 +85,6 @@
 
         private System.Windows.Forms.Button btnReception;
         private System.Windows.Forms.Button btnStore;
+        private System.Windows.Forms.Button button1;
     }
 }
