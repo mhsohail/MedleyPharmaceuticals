@@ -1,4 +1,4 @@
-﻿namespace Medley.UI.Views
+﻿namespace Medley.Core.Views
 {
     partial class HomeWindow
     {
@@ -34,10 +34,9 @@
             // 
             // btnReception
             // 
-            this.btnReception.Location = new System.Drawing.Point(144, 135);
-            this.btnReception.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReception.Location = new System.Drawing.Point(108, 110);
             this.btnReception.Name = "btnReception";
-            this.btnReception.Size = new System.Drawing.Size(100, 28);
+            this.btnReception.Size = new System.Drawing.Size(75, 23);
             this.btnReception.TabIndex = 0;
             this.btnReception.Text = "Reception";
             this.btnReception.UseVisualStyleBackColor = true;
@@ -45,10 +44,9 @@
             // 
             // btnStore
             // 
-            this.btnStore.Location = new System.Drawing.Point(252, 135);
-            this.btnStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStore.Location = new System.Drawing.Point(189, 110);
             this.btnStore.Name = "btnStore";
-            this.btnStore.Size = new System.Drawing.Size(100, 28);
+            this.btnStore.Size = new System.Drawing.Size(75, 23);
             this.btnStore.TabIndex = 1;
             this.btnStore.Text = "Stroe";
             this.btnStore.UseVisualStyleBackColor = true;
@@ -56,12 +54,11 @@
             // 
             // HomeWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 322);
+            this.ClientSize = new System.Drawing.Size(411, 262);
             this.Controls.Add(this.btnStore);
             this.Controls.Add(this.btnReception);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeWindows";
